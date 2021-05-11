@@ -48,8 +48,8 @@ def do(video) :
             
 
 
-imageList = []
-Model = keras.models.load_model('C:/Users/abhir/pgms/TensorFlow/Rep1')
+
+Model = keras.models.load_model('.')
 Face_detect = MTCNN()
 video = VideoStream(0).start()
 #rint(video.isOpened())
