@@ -1,14 +1,9 @@
-                                                       CONVOLUTIONAL NEURAL NETWORKS FOR FACIAL 
-                                                              RECOGNITION AND FACEMASK
-                                                                   CLASSIFICATION
+# Convolutional Neural Networks for facemask Classification
                                  
-                                 
-                                 
-                                THE FOLLOWING DIRECTORY CONATINS A TRAINED MODEL TO CLASSIFY FACES IN IMAGES FOR FACEMASKS. 
-                                
-                                CVMODEL.IPYNB: THIS FILE CONTAINS COMPILING AND TRAINING AND TESTING OF THE MODEL .
-                                
-                                PLAYMODEL.PY : THIS FILE IS TO USE THE MODEL WITH DEVICE CAMERA AND MAKE PREDICTIONS WITH 
-                                PROBABILITIES FRAME BY FRAME.
-                                SAVED_MODEL.PB : SAVED  TENSORFLOW MODEL.
-                                ASSETS : MODEL ASSETS.
+## Description
+
+The model classifies the faces to detect the presence of a facemask.
+
+## Run 
+
+  `python playModel.py`
